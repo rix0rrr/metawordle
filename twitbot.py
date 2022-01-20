@@ -69,7 +69,7 @@ def main():
       # Otherwise, strip off a contributor
       contributors = random.sample(contributors, len(contributors) - 1)
 
-    # api.PostUpdate(status)
+    api.PostUpdate(status)
 
 
 @dataclass
